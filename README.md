@@ -3,6 +3,8 @@
 A Clojure library designed to calculate business time and durations according to working schedule with timezones.
 It uses famous Java joda-time library.
 
+This is useful when you need to calculate some ticket response/resolve time, SLA and so on.
+
 ## Usage
 
 Add the following dependency to your project.clj:
@@ -53,6 +55,7 @@ to use handy date-time functions.
 ```clj
 (from-business-duration duration (j/date-time)) ;;returns date-time with respect to working schedule, duration specified as integer in seconds from date specified by second argument.
 => #object[org.joda.time.DateTime 0xb842a0b "2016-12-30T15:10:06.462+02:00"]
+```
 
 ```clj
 (business-seconds-till (j/plus (j/date-time) (j/days 2))) ;;returns integer duration in seconds between two dates according to working schedule. If second parameter ommited, current date-time is used.
