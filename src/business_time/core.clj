@@ -1,4 +1,5 @@
 (ns business-time.core
+  (:refer-clojure :exclude [print])
   (:require [joda-time :as t]
             [joda-time.accessors :as a])
   (:import [org.joda.time Seconds Duration]

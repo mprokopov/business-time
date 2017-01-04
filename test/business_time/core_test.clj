@@ -1,4 +1,5 @@
 (ns business-time.core-test
+  (:refer-clojure :exclude [print])
   (:require [clojure.test :refer :all]
             [business-time.core :refer :all]
             [joda-time :as t]

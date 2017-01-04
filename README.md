@@ -3,7 +3,7 @@
 A Clojure library designed to calculate business time and durations according to working schedule with timezones.
 It uses famous Java joda-time library.
 
-This is useful when you need to calculate some ticket response/resolve time, SLA and so on.
+This is useful when you need to calculate some ticket response/resolve time, SLA and so on. Inspired by article https://engineering.helpshift.com/2016/timezones-FP/.
 
 ## Usage
 

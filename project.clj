@@ -1,4 +1,4 @@
-(defproject mprokopov/business-time "0.1.0"
+(defproject mprokopov/business-time "0.1.1"
   :description "Business time clojure library"
   :url "http://github.com/mprokopov/business-time"
   :license {:name "Eclipse Public License"
