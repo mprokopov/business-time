@@ -64,6 +64,6 @@ to use handy date-time functions.
 
 ## License
 
-Copyright © 2016 Maksym Prokopov
+Copyright © 2017 Maksym Prokopov
 
 Distributed under the MIT License.
