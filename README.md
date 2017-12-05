@@ -1,5 +1,7 @@
 # business-time
 
+[![Clojars Project](https://img.shields.io/clojars/v/mprokopov/business-time.svg)](https://clojars.org/mprokopov/business-time)
+
 A Clojure library designed to calculate business time and durations according to working schedule with timezones.
 It uses famous Java joda-time library.
 
@@ -10,7 +12,7 @@ This is useful when you need to calculate some ticket response/resolve time, SLA
 Add the following dependency to your project.clj:
 
 ```clj
-[mprokopov/business-time "0.1.0"]
+[mprokopov/business-time "0.1.1"]
 ```
 
 also add
